@@ -12,7 +12,7 @@ namespace Hackathon
         {
             {
                 int t = 0;
-                string[] Names = new string[6] {"Harpreet Kaur","Mandeep Singh","Gurjinder Singh","Manvir Singh", "Arshdeep Singh", "Gurpinderpal Singh"};
+                string[] Names = new string[6] { "Harpreet Kaur", "Mandeep Singh", "Gurjinder Singh", "Manvir Singh", "Arshdeep Singh", "Gurpinderpal Singh" };
                 string[] Letters = new string[6] { "A", "B", "C", "D", "E", "F" };
                 for (int b = 0; b <= 6; t++)
                 {
@@ -43,6 +43,37 @@ namespace Hackathon
                 Console.ReadLine();
             }
         }
+
+
+
     }
-}
+    
+        checkvowels();
+
+
+    }
+
+
+    public static int checkvowels()
+
+    {
+        int h = 0;
+        string[] vowel = new string[] { "a", "e", "i", "o", "u" };
+        Console.WriteLine("Enter a character");
+        String s = Console.ReadLine();
+        for (int i = 0; i < s.Length; i++)
+        {
+            if (vowel[i] == s.ToLower())
+            {
+                Console.WriteLine("this character is in the list at" + " position " + (i + 1));
+                h = i;
+            }
+            else
+            {
+                Console.WriteLine("not there");
+                h = -1;
+            }
+        }
+        return h;
+    }
 
