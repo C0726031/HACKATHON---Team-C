@@ -14,8 +14,8 @@ namespace Hackathon
             // Mandeep Singh C0732152
             // Gurjinder Singh C0730319
             // Arshdeep singh C0716342
-            // manvir singh C0730069
-            // Gurpinfderpal singh C0731868
+            // Manvir singh C0730069
+            // Gurpinderpal singh C0731868
         }
     }
 
