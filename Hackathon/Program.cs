@@ -10,8 +10,13 @@ namespace Hackathon
     {
         static void Main(string[] args)
         {
-            int i = 7;
-            int j = 9;
+            // Harpreet Kaur C0726031
+            // Mandeep Singh C0732152
+            // Gurjinder Singh C0730319
+            // Arshdeep singh C0716342
+            // manvir singh C0730069
+            // Gurpinfderpal singh C0731868
         }
     }
+
 }
