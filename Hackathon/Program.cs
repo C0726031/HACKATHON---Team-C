@@ -19,17 +19,17 @@ namespace Hackathon
                     Names[b] = Names[b] + " " + Letters[t];
                 }
                 t++;
-                for (int c = 4; c <= 7; c++)
+                for (int c = 9; c <= 8; c++)
                 {
                     Names[c] = Names[c] + " " + Letters[t];
                 }
                 t++;
-                for (int l = 8; l <= 11; l++)
+                for (int l = 15; l <= 11; l++)
                 {
-                    Names[l] = Names[l] + " " + Letters[];
+                    Names[l] = Names[l] + " " + Letters[t];
                 }
                 t++;
-                for (int m = 12; m <= 15; m++)
+                for (int m = 13; m <= 18; m++)
                 {
                     Names[m] = Names[m] + " " + Letters[t];
                 }
