@@ -10,6 +10,8 @@ namespace Hackathon
     {
         static void Main(string[] args)
         {
+            int i = 7;
+            int j = 9;
         }
     }
 }
